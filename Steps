@@ -1,0 +1,38 @@
+# FlipCards-with-css3
+working on transforms and transform-style properties to build a flip card 
+=========>include css file flipCard.css in your html 
+steps to add flip cards to your html
+1.wrap your flipCards in a container div with class 'flip-cards'
+2.each flip card will be wrapped in a div with class 'flip-container'
+3.in flip-container classed div place a div with class 'card' and make childs of this div,one with class 'front' for front 
+of card and other one with class 'back' for back of the card
+4.inside these divs with classes 'front' and 'back' put text or any image you would like to be placed on the card
+5.repeat step 2 to make multiple cards 
+To change the size of cards update .flip-container class in your css
+To update front and back of cards update 'front' and 'back' classes in your css
+
+code snippet -----------
+<div class="flip-cards">
+  <!--first card -->
+<div class="flip-container">
+<div class="card">
+<div class="front">
+<!--some text or image here  As you wish-->
+</div>
+<div class="back">
+<!--some text or image here  As you wish-->
+</div>
+</div>
+</div>
+  <!-- second card -->
+  <div class="flip-container">
+<div class="card">
+<div class="front">
+<!--some text or image here  As you wish-->
+</div>
+<div class="back">
+<!--some text or image here  As you wish-->
+</div>
+</div>
+</div>
+</div>
